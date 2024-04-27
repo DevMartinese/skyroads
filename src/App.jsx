@@ -10,7 +10,8 @@ function App() {
       <color attach="background" args={["#ececec"]} />
       <Suspense>
         <Physics debug>
-          <ExperienceV2 />
+          <Experience />
+         { /*<ExperienceV2 />*/}
         </Physics>
       </Suspense>
     </Canvas>
